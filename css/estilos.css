@@ -1,0 +1,143 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+li{
+    list-style: none;
+}
+
+#barra{
+    float: left;
+}
+
+#barra ul{
+    display: none;
+}
+
+#menu ul .transicion{
+    padding-bottom: 32px
+}
+header{
+	width:100%;
+	background:#f2f2f2;
+	box-shadow:1px 1px 5px #000;
+	height:90px;
+}
+	
+#menu{
+	width:450px;
+	padding-top:10px;
+	margin:auto;
+}
+
+#menu ul a{
+	color:#6e6e6e;
+	text-decoration:none;
+	font:bold 16px Verdana;
+	padding:12px 6px 12px 6px;
+	background:transparent;
+	border-bottom:9px solid transparent;
+	transition:border-bottom .7s;
+	-webkit-transition:border-bottom .7s;
+	-moz-transition:border-bottom .7s;
+	-o-transition:border-bottom .7s;
+}
+#menu ul a:hover{
+	border-bottom:9px solid #6e6e6e;
+}
+#Contactos{
+	float: left;
+}
+	/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 12%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.Contraseña {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+#animales{
+text-align: center;
+padding: 100px;
+font-size: 50px;
+}	
+.leona{
+    text-align: center;
+}
+.leon{
+    text-align: center;
+}
+.grande{
+    font-size: 20px;
+    font-weight: bold;
+}
+.lobo{
+    text-align: center;
+}
+.fondo{
+background: linear-gradient(to top, #99ccff 0%, #66ff66 100%);
+}
